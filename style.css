@@ -75,12 +75,13 @@ input {
 
 /* parent 2 */
 .content {
-  width: 65vh;
-  height: 35vh;
-  margin-bottom: 20px;
-  position: relative; 
-  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.455);  
-  background-image: url("img/yellow-grunge-texture.jpg");
+  min-width: 69vh;
+  min-height: 35vh;
+  margin: 90px auto 20px auto;
+  position: relative;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.455);
+  background-image: url("../img/yellow-grunge-background.jpg");
+  // background-image: url("../img/yellow-grunge-texture-background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -151,9 +152,12 @@ h4 {
 
 /* body page image */
 body {
-  margin: 100px 0 0 0;
-  background-image: url("img/turkey-tree.jpg");
+  // margin: 100px 0 0 0;
+  background-image: url("../img/turkey-tree.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 900px;
+  min-width: 80vh;
 }
 
 /* quote */
